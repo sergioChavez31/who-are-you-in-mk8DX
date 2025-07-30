@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <title>Sergio Chavez</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    </head>
+    <body class="form-body">
+      <header>
+         <h1>
+            <span id="lights">Lights...</span>
+            <span id="camera">Camera...</span>
+            <span id="play">PLAY!</span>
+         </h1>
+      </header>
+        <form action="results.html" method="get"  class="card">
+            <div class="form-title">
+               <h2>Movie Magic: Discover Your Mario Kart 8 Deluxe Character</h2>
+               <p>"Match Your Film Faves to Your Kart Crew!"</p>
+            </div>
+            
+   
+             <div class="question q1">
+                <!-- for="" attribute has to match id of input -->
+                <!-- name is important for when you put it into params -->
+                <p><label for="user-name">What is your name? Maybe your selected character is staring you in the face...</label></p><br>
+                <input type="text" id="user-name" name="user-name" required>
+             </div>
+             
+             <div class="question q2">
+               <p><label for="amount">On a scale from 0 (never watched them) to 10 (obsessed), how big of a fan are you of space movies?</label></p><br>
+               <input type="number" id="amount" name="amount" min="0" max="10" required>
+             </div>
+             
+             <div class="question q3">
+                <p>Which types of movies do you enjoy?</p>
+                <input type="checkbox"  id="space" name="genres" value="space">
+                <label for="space">Sci-Fi and Space Movies</label><br>
+
+                <input type="checkbox"  id="princess" name="genres" value="princess">
+                <label for="princess">Princess Movies</label><br>
+
+                <input type="checkbox"  id="action" name="genres" value="action">
+                <label for="action">Action Movies</label><br>
+
+                <input type="checkbox"  id="wholesome" name="genres" value="wholesome">
+                <label for="wholesome">Wholesome</label><br>
+             </div>
+
+             <div class="question q4">
+                <p>What type of movie character would you consider yourself?</p>
+                <input type="radio" id="hero" name="character-type" value="hero">
+                <label for="hero">The Hero / Protagonist <i>(kinda like Luke Skywalker, Harry Potter, etc...)</i></label><br>
+
+                <input type="radio" id="villain" name="character-type" value="villain">
+                <label for="villain">The Villain <i>(like Darth Vader, Voldemort, etc..)</i></label><br>
+
+                <input type="radio" id="sidekick" name="character-type" value="sidekick">
+                <label for="sidekick">The Sidekick</label><br>
+
+                <input type="radio" id="pets" name="character-type" value="pets">
+                <label for="pets">idk I just like movies with wholesome pets in them</label><br>
+             </div>
+
+             <div class="question q5">
+                <p>Barbie or Oppenheimer?</p>
+                <input type="radio" id="oppenheimer" name="barbeinheimer" value="oppenheimer">
+                <label for="oppenheimer">Oppenheimer</label><br>
+
+                <input type="radio" id="barbie" name="barbeinheimer" value="barbie">
+                <label for="barbie">Barbie</label><br>
+
+                <input type="radio" id="none" name="barbeinheimer" value="none">
+                <label for="none">None</label><br>
+
+                <input type="radio" id="both" name="barbeinheimer" value="both">
+                <label for="both">Both</label><br>
+             </div>
+
+             <div class="question q6">
+               <p>If you could visit a fictional place, where would you go?</p>
+               <input type="radio" id="tatooine" name="place" value="tatooine">
+               <label for="tatooine">Tatooine (Star Wars)</label><br>
+
+               <input type="radio" id="hogwarts" name="place" value="hogwarts">
+               <label for="hogwarts">Hogwarts (Harry Potter)</label><br>
+
+               <input type="radio" id="batcave" name="place" value="batcave">
+               <label for="batcave">The Batcave</label><br>
+
+               <input type="radio" id="snoopy" name="place" value="snoopy">
+               <label for="snoopy">Wherever Snoopy from Peanuts is</label><br>
+             </div>
+
+             <div class="question q7">
+               <p>Which one of these actors do you enjoy the most?</p>
+               <input type="radio" id="c-pratt" name="actor" value="c-pratt">
+               <label for="c-pratt">Chris Pratt</label><br>
+
+               <input type="radio" id="c-day" name="actor" value="c-day">
+               <label for="c-day">Charlie Day</label><br>
+
+               <input type="radio" id="a-joy" name="actor" value="a-joy">
+               <label for="a-joy">Anya Taylor-Joy</label><br>
+
+               <input type="radio" id="j-black" name="actor" value="j-black">
+               <label for="j-black">Jack Black</label><br>
+             </div>
+             <div class="submit">
+                <input id="submit-btn" type="submit" value="Submit">
+             </div>
+             
+        </form>
+    </body>
+    <script src="popups.js"></script>
+</html>
