@@ -4,7 +4,7 @@
     font-family: 'Acme', sans-serif;
 }
 .form-body {
-    background-image: url('images/stage.jpg');
+    background-image: url('./images/stage.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-color: black;

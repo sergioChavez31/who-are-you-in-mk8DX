@@ -8,43 +8,43 @@ const params = new URLSearchParams(data);
 const roster = {
     "Mario": {
         "description": "The classic. Mario is a more all-around type charcter and based off your answers (or lack thereof), you are a real all-around movie fan! Let's-a-go!!!",
-        "image": "images/mario.jpg",
+        "image": "./images/mario.jpg",
         "bg-color": "background-color: rgb(250, 112, 112)",
         "yt-link": "https://youtu.be/V-LCv-jlgbc?list=TLGGYRJ_ETtya8syMTEwMjAyMw"
     },
     "Luigi": {
         "description": "Ah yes, <i>Mario's brother</i>... In all seriousness, you might be a more casual or all-around movie fan. If you're a big fan of Robin from Batman or Chewbacca, then Lugi is perfect for you!",
-        "image": "images/luigi.jpg",
+        "image": "./images/luigi.jpg",
         "bg-color": "background-color: rgb(115, 251, 115)",
         "yt-link": "https://youtu.be/k7-YZLqc650?list=TLGGKA1816334L4yMTEwMjAyMw"
     },
     "Peach": {
         "description": "Barbie? Right. Aside from the fact that they both wear pink, many fans of Disney princess movies would feel right at home playing as Peach! Just make sure to watch out for Bowser...", 
-        "image": "images/peach.jpg",
+        "image": "./images/peach.jpg",
         "bg-color": "background-color: rgb(255, 192, 203)",
         "yt-link": "https://youtu.be/DatUe6lj2ZA?list=TLGGXvF0nhhbpkgyMTEwMjAyMw"
     },
     "Daisy": {
         "description": "Even though she might look like a princess who sits in a castle all day, she is also one great adventurer. If you like Disney princess movies but also like action packed movies like <i>Top Gun: Maverick</i>, then Daisy is PERFECT for you!", 
-        "image": "images/daisy.jpg",
+        "image": "./images/daisy.jpg",
         "bg-color": "background-color: rgb(244, 211, 150)",
         "yt-link": "https://youtu.be/gYf08WLnMIw?list=TLGGQNX7-3udRAcyMTEwMjAyMw"
     },
     "Rosalina": {
         "description": "If you like movies that take place in the stars, then Rosalina might be good for you! While playing as her, you can pretend to drive to a galaxy far far away...",
-        "image": "images/rosalina.jpg",
+        "image": "./images/rosalina.jpg",
         "bg-color": "background-color: rgb(140, 246, 244)",
         "yt-link": "https://youtu.be/UHFaZAxqjBU?list=TLGGI2r2_-MVMWUyMTEwMjAyMw"
     },
     "Bowser": {
         "description": "I bet you love being the villain... In which case Bowser is perfect. Maybe you think the villain from a certain movie was right all along. Maybe you think Dr. Doofenshmirtz was misunderstood. Regardless, this character would be the best match made in villain history. Maybe you can finally one-up Mario on the track!",
-        "image": "images/bowser.jpg",
+        "image": "./images/bowser.jpg",
         "bg-color": "background-color: rgb(119, 4, 4)",
         "yt-link": "https://youtu.be/poc0UmhOT78?list=TLGGsi3PFF42BM4yMTEwMjAyMw"
     },
     "Yoshi": {
         "description": "You seem to LOVE pets. In which case, Yoshi can be your Mario Kart version of Chewbacca or the donkey from Shrek!",
-        "image": "images/yoshi.jpg",
+        "image": "./images/yoshi.jpg",
         "bg-color": "background-color: rgb(11, 139, 11)",
         "yt-link": "https://youtu.be/UlBLzY5l1Tg?list=TLGGAj94uSLZhcYyMTEwMjAyMw"
     }
