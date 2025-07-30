@@ -66,7 +66,7 @@ header {
 .q6 {background-color: rgb(11, 139, 11); border: 4px solid rgb(224, 224, 0);}
 .q7 {background-color: rgb(255, 242, 242); border: 4px solid rgb(255, 0, 0);}
 input[type=text], input[type=number] {
-    width: 100%;
+    width: 95%;
     font-size: 16px;
     padding: 12px;
 }
